@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         rgbLabel.text = String(greenSlider.value)
         rgbLabel.text = String(blueSlider.value)
         
-        self.rgbLabel.backgroundColor = UIColor(red:<#T##CGFloat#> (redSlider.value)/255,green:CGFloat(greenSlider.value)/255, blue: <#T##CGFloat#>(blueSlider.value)/255,alpha: 1)
+        self.rgbLabel.backgroundColor = UIColor(red:CGFloat (redSlider.value)/255,green:CGFloat(greenSlider.value)/255, blue: CGFloat(blueSlider.value)/255,alpha: 1)
         
     }
     
